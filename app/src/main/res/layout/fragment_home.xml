@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/l_home"
+    android:background="@drawable/xingzuo"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="#0A0A0A"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:text="星座运势查询"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_xingzuo"
+        android:hint="请输入您的星座"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_time"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="请输入您要查询的日期：today/tomorrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="确认查询"
+        android:background="@drawable/shape"
+        android:id="@+id/bt_find"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/tv_xingzuo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/registerbac"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/register_id"
+        android:layout_marginTop="20dp"
+        android:hint="请输入您要申请的账号"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_marginTop="5dp"
+        android:hint="请输入您要申请的密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/register_confirm"
+        android:layout_marginTop="5dp"
+        android:hint="请输入您要申请的确认密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="click"
+        android:textSize="20sp"
+        android:text="注册"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/loginbac"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
